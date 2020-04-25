@@ -1,0 +1,42 @@
+.Navbar{
+    background-color:dodgerblue;
+    display:flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+}
+.Form{
+    border:1px solid black;
+    margin: auto;
+    width: 50%;
+}
+.buttons{
+    margin-top: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+label{
+    margin:10px;
+    padding:20px;
+}
+input{
+    padding-bottom: 5px;
+}
+.UserName{
+    margin:10px;
+}
+.UserA{
+    margin-top: 20px;
+    border:1px solid black;
+    border-radius: 6%;
+    width:30%;
+    margin:10px;
+    text-align: center;
+}
+.User{
+    display:flex;
+    flex-wrap:wrap;
+}
